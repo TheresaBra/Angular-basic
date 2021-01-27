@@ -1,0 +1,29 @@
+.navbar {
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-bottom:none;
+    background-color: transparent;
+    min-width: 300px;
+    border: none;
+}
+.navbar .navbar-brand {
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 767px) { 
+
+    .navbar-collapse {
+        margin-left: 20px;
+        border-top: none;
+        box-shadow: none;
+    }
+}

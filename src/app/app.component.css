@@ -1,0 +1,47 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white; 
+}
+
+.nightsky .hero p{
+    color: white;
+    max-width: 660px;
+    margin: 0 auto 20px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.nightsky {
+    background: url("src\assets\nightsky.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 500px;
+}
+
+
+
+.nightsky .hero {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.nightsky .hero h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 36px;
+}
+
+@media screen and (max-width: 767px) { 
+
+   
+
+    .nightsky .hero{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .nightsky .hero h1{
+        font-size: 42px;
+    }
+}
